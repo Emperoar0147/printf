@@ -1,4 +1,4 @@
-#ifndef MAIN_Hi
+#ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
@@ -21,8 +21,8 @@
 /**
  * struct fmt - Struct op
  *
- * @fmt: Is the format.
- * @fn: Is the function associated.
+ * @fmt: The format.
+ * @fn: The function associated.
  */
 struct fmt
 {
